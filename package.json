@@ -1,0 +1,23 @@
+{
+  "name": "mercadotracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "*",
+    "cheerio": "*",
+    "dotenv": "*",
+    "fs-extra": "^0.30.0",
+    "nightmare": "^3.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "electron": "^2.0.18"
+  }
+}

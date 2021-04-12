@@ -1,0 +1,18 @@
+nightmare
+    .goto("https://listado.mercadolibre.com.ar/samson-c01#D[A:samson%20c01]")
+    .wait("#root-app")
+    .evaluate(()=>{
+        
+    var x= document.getElementsByClassName("ui-search-layout__item")
+    .item(0)
+    .childNodes[0]
+    .childNodes[0]
+    .childNodes[1]
+    .childNodes[1]
+    .childNodes[0]
+    .childNodes[0]
+    .childNodes[0]
+    .childNodes[0]
+    .childNodes[2]
+    .textContent;
+console.log("hola2"+x);
